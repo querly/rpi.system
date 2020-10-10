@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row" style="height: complex">
+                <div class="col-md-3 menu">
+                    <div class="menu-top">
+                        <span>
+                            <svg width="20px" height="20px" viewBox="0 0 16 16" class="bi bi-emoji-smile" fill="white" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                              <path fill-rule="evenodd" d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683z"/>
+                              <path d="M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+                            </svg>
+                        </span>
+                        <span class="system-title">RPI System</span>
+                        <div class="system-logo"></div>
+                        <div class="system-version">Version: 1.0.0</div>
+                    </div>
+                    <hr class="style">
+                    <!--Dashboard button-->
+                    <div class="menu-section">URZĄDZENIA</div>
+                    <div class="menu-devices">
+                        <!--List of devices-->
+                        <div style="float: right; padding: 20px; display: block; wi">
+                            <a href="#">RPI
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-right" fill="white" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M6 12.796L11.481 8 6 3.204v9.592zm.659.753l5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+                            </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-site-config">
+                        <!--Logs, web config-->
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="content-top mt-3">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!--CONTENT TOP: BREADCRUP, SEARCH FIELD, USER BUTTONS-->
+                                <div class="row">
+                                    <!--BREADCRUP-->
+                                    <div class="col-md-4">
+                                        <span class="badge badge-dark" style="padding: 2%"><h3>DASHBOARD</h3></span>
+                                    </div>
+                                    <!--SEARCH FIELD-->
+                                    <div class="col-md-4">
+                                        <form class="form-inline">
+                                            <i class="fas fa-search" aria-hidden="true"></i>
+                                            <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"
+                                                   aria-label="Search">
+                                        </form>
+                                    </div>
+                                    <!--USER BUTTONS-->
+                                    <div class="col-md-4">
+                                        <button type="button" class="btn btn-primary btn-circle"><i class="fa fa-list"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <!--DEVICES LIVE STATS-->
+                                <div class="row mt-5">
+                                    <div class="col-12">
+                                        <div class="row row-cols-1 row-cols-md-3">
+                                            <div class="col mb-4">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Card title</h5>
+                                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Card title</h5>
+                                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col mb-4">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Card title</h5>
+                                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

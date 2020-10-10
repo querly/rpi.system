@@ -1,0 +1,44 @@
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.top-buffer { margin-top:20px; }
+
+.menu{
+    background: rgb(6,100,163);
+    background: linear-gradient(90deg, rgba(6,100,163,1) 0%, rgba(30,93,181,1) 72%);
+}
+.menu a {color: white; opacity: 0.5; font-size: 14px}
+.menu a:hover {color: white; opacity: revert; text-decoration: none;}
+.menu-top {padding: 8%}
+
+.system-title { color: white; font-size: 20px; }
+.system-version{color:white; font-size: xx-small; float: right}
+
+hr.style {
+    border-top: 1px solid #8c8b8b;
+    opacity: 0.5;
+}
+
+.menu-section {
+    color: #cdd8f6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 0.5;
+}
