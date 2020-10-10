@@ -30,6 +30,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/views/html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -54,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602264575343</updated>
-      <workItem from="1602264576559" duration="19256000" />
+      <workItem from="1602264576559" duration="20523000" />
     </task>
     <servers />
   </component>
@@ -70,5 +72,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="543" y="380" key="NewPhpFileDialog/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1602267565825" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1602360708064">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1602360708064" />
   </component>
 </project>

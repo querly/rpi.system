@@ -1,9 +1,9 @@
 const express = require("express");
-const app = express();
+const router = express.Router();
 
 module.exports = function (app){
 
-    app.get("/", function (req, res) {
+    router.get("/", function (req, res) {
         res.render("dashboard", {
             title: "Dashboard"
         });
