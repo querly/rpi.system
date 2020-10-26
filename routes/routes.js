@@ -1,11 +1,13 @@
 const express = require("express");
 const router = express.Router();
+const Device = require("../models/devices");
 
-module.exports = function (app){
+module.exports = function (app) {
 
-    router.get("/", function (req, res) {
+    app.get("/", function (req, res) {
+
         res.render("dashboard", {
-            title: "Dashboard"
+            title: "Dashboard",
         });
     });
 

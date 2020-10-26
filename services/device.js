@@ -1,6 +1,0 @@
-class DeviceService()
-{
-    create(){
-        
-    }
-}
