@@ -1,14 +1,17 @@
 const express = require("express");
 const router = express.Router();
-const Device = require("../models/devices");
 
-module.exports = function (app) {
-
-    app.get("/", function (req, res) {
-
-        res.render("dashboard", {
-            title: "Dashboard",
-        });
+router.get("/", function (req, res) {
+    res.render("dashboard", {
+        title: "Dashboard",
     });
+});
 
-}
+router.get("/rpi", function (req, res) {
+    res.render("rpi", {
+        title: "RPI",
+    });
+});
+
+
+module.exports = router;
